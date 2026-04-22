@@ -41,6 +41,17 @@ This project demonstrates authentication flow, API integration, and a responsive
 netflix-clone/
 ├── client/     # React Frontend
 └── server/     # Express Backend
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/MeenaG86/Login-React-Project.git
+```
 
 ---
 
@@ -106,7 +117,7 @@ Password: Meena@123
 ## 🔒 Note
 
 * This project uses **mock authentication** (no database)
-
+* `.env` file is not included for security reasons
 
 ---
 
