@@ -61,10 +61,10 @@ function Login() {
     try {
       setLoading(true);
 
-      const response = await axios.post("http://localhost:5000/login", {
-        email,
-        password,
-      });
+      const response = await axios.post(`${import.meta.env.VITE_API_URL}/login`, {
+  email,
+  password,
+});
 
       if (response.data.success) {
         localStorage.setItem("isLoggedIn", "true");
